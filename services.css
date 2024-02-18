@@ -1,0 +1,73 @@
+.logo {
+    display: flex;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 45px;
+    top: 40px;
+}
+
+.headertext {
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+    margin-left: 320px;
+}
+
+.services {
+    display: flex;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 50px;
+    top: 90px;
+    right: 40px;
+}
+
+.hr1 {
+    display: flex;
+    width: 640px;
+    height: 2px;
+    background-color: grey;
+ }
+
+.homelinks {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: gray;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.ht {
+    margin-left: 140px;
+    color: gray;
+    text-decoration: none;
+    transition-duration: 0.16s;
+}
+
+.ht:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+.service-des {
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    margin-left: 175px;
+    font-size: 30px;
+    width: 240px;
+    color: aqua;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition-duration: 1.02s;
+}
+
+.service-des:hover {
+    transform: scale(1.2);
+    
+}
