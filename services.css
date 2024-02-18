@@ -30,13 +30,37 @@
     background-color: grey;
  }
 
+ .phonelinks {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-left: 60px
+ }
+
+ .phonelinks:hover {
+    color: black;
+    transform: scale(1.2);
+    transition-duration: 0.15s;
+ }
+
+ .phoneratio {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 40px;
+    text-wrap: nowrap;
+    cursor: pointer;
+    visibility: hidden;
+ }
+
 .homelinks {
     display: flex;
     justify-content: center;
     position: relative;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     color: gray;
     margin-right: 150px;
     cursor: pointer;
@@ -64,10 +88,75 @@
     color: aqua;
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
-    transition-duration: 1.03s;
+    transition-duration: 1.02s;
 }
 
 .service-des:hover {
     transform: scale(1.2);
+}
+
+.break{
+    visibility: hidden;
+}
+
+@media screen and (max-width:812px)  {
     
+    .logo {
+        width: 20px;
+        height: 20px;
+        margin-top: -40px;
+        margin-left: -27px;
+    }
+
+    .headertext {
+        font-family: 'Playfair Display', serif;
+        font-size: 90px;
+        margin-left: 180px;
+    }
+
+    .services {
+        display: flex;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 35px;
+        top: 50px;
+        right: 20px;
+    }
+
+    .hr1 {
+        display: flex;
+        width: 480px;
+        height: 1px;
+        margin-left: 150px;
+        background-color: grey;
+     }
+
+     .homelinks{
+        visibility: hidden;
+     }
+
+     .phoneratio{
+        visibility: visible;
+     }
+
+     .service-des {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 110px;
+        margin-left: 175px;
+        font-size: 50px;
+        width: 440px;
+        color: aqua;
+        text-shadow: 1px 1px 1px black;
+        cursor: pointer;
+     }
+     
+     .break {
+        visibility: visible;
+        color: black;
+        margin-top: 90px;
+     }
+
 }
